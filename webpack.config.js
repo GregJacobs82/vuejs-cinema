@@ -52,7 +52,8 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
-    noInfo: true
+    noInfo: true,
+	open: false
   },
   performance: {
     hints: false
