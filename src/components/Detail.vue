@@ -1,6 +1,8 @@
 <template>
     <div v-if="movie" id="detail">
-        <movie-item v-bind:movie="movie.movie"></movie-item>
+        <movie-item v-bind:movie="movie.movie">
+        	slots
+        </movie-item>
     </div>
 </template>
 <script>
