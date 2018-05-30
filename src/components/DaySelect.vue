@@ -24,7 +24,7 @@
 				if (raw.isSame(this.$moment(), 'day')) {
 					return 'Today';
 				} else {
-					return raw.format('ddd DD/MM');
+					return raw.format('ddd: MMM D');
 				}
 			},
 			isActive(day) {
