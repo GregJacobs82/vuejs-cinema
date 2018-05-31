@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vue.js Cinema</title>
-    <link rel="icon" href="/public/favicon.ico" type="image/x-icon">
+    <title>Greg's Vue.js Cinema</title>
+    <link rel="icon" href="/public/favicon.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
     <style>
         [v-cloak] {
@@ -16,7 +16,16 @@
 <div id="app">
     <div id="title">
         <img src="/public/logo.png">
-        <h1>Vue.js Cinema</h1>
+        <div style="padding-left: 1rem;">
+            <h1 style="padding: 0px;">Vue.js Cinema</h1>
+            <h3 style="
+                margin-top: 0;
+                margin-bottom: 0;
+                margin-left: 17px;
+                font-size: 1rem;
+                color: #ffa624;
+            ">by Greg Jacobs</h3>
+        </div>
     </div>
     <router-view v-bind:genre="genre" v-bind:time="time" v-bind:movies="movies" v-bind:day="day"></router-view>
 </div>

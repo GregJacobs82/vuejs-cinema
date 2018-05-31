@@ -62,7 +62,6 @@
                 return this.movies
                         .filter(this.moviePassesGenreFilter)
                         .filter(movie => movie.sessions.find(this.sessionPassesTimeFilter));
-                ;
             },
             noResults() {
                 let times = this.time.join(', ');
